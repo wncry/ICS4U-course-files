@@ -1,0 +1,19 @@
+front end: menu
+- rules
+- starting point
+- settings
+    - time [bool]
+    - card count [int]
+
+back end: game
+- algorithm
+    - elements
+    - cards
+
+
+random display
+point system
+two players
+timer
+modes >> difficulty
+instructions

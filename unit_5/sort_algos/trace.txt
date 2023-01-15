@@ -1,0 +1,40 @@
+bubble sort:
+for each pass through arr while exchanged:
+    for each index in arr-pass:
+        if arr[index] > arr[index+1]:
+            swap arr[index] with arr[index+1]
+            exchanged
+
+insertion sort:
+for each index in arr:
+    temp_element = arr[index]
+    temp_index = index
+    while arr[temp_index] < arr[temp_index-1] and temp_index>0:
+        arr[temp_index] = arr[temp_index-1]
+        temp_index--
+    arr[temp_index] = temp_element
+
+selection sort:
+for each index1 in arr:
+    smallest = index1
+    for each index2 in arr:
+        if arr[index2] < smallest:
+            smallest = index2
+
+
+
+
+bubble sort:
+for each element:
+    if element > element+1:
+        swap
+
+insertion sort:
+for each element:
+    while element < element-1:
+        shuffle elements to the right
+
+selection sort:
+for each element:
+    find smallest element
+    place smallest at beginning
